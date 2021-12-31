@@ -1,0 +1,97 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sripirom.BulkUpload.Domain", "src\Sripirom.BulkUpload.Domain\Sripirom.BulkUpload.Domain.csproj", "{16F1F5BC-73D8-4D81-A575-B8E41782F736}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sripirom.BulkUpload.DataAccess", "src\Sripirom.BulkUpload.DataAccess\Sripirom.BulkUpload.DataAccess.csproj", "{7C17A3B7-A2DD-4048-8FEB-2D3CC55B7F29}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{8EA64471-DF40-4790-B7DA-254B6841CB52}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{376D1018-02DA-48EF-A86A-FA55DB713CE7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sripirom.BulkUpload.Services", "src\Sripirom.BulkUpload.Services\Sripirom.BulkUpload.Services.csproj", "{CFAD5F8D-7406-493E-B44F-7496808FA881}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "app", "app", "{67DAE579-ED1B-4319-B8D2-0B8178DB4B2F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sripirom.BulkUpload.Client", "src\Sripirom.BulkUpload.Client\Sripirom.BulkUpload.Client.csproj", "{BD611F36-7EFC-414B-AEF0-F5D5AD26EBE6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sripirom.BulkUpload.Domain.Tests", "test\Sripirom.BulkUpload.Domain.Tests\Sripirom.BulkUpload.Domain.Tests.csproj", "{3F6668EC-1743-41BA-8DBD-7380F06A0693}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sripirom.BulkUpload.DataAccess.Tests", "test\Sripirom.BulkUpload.DataAccess.Tests\Sripirom.BulkUpload.DataAccess.Tests.csproj", "{7A0CDA8C-551C-49A6-B543-862CA778BF4A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sripirom.BulkUpload.Services.Tests", "test\Sripirom.BulkUpload.Services.Tests\Sripirom.BulkUpload.Services.Tests.csproj", "{88DC15B3-C148-412A-B4B7-38E52A89B5E1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sripirom.BulkUpload.WebApi.Tests", "test\Sripirom.BulkUpload.WebApi.Tests\Sripirom.BulkUpload.WebApi.Tests.csproj", "{D84C0F33-631D-4AE0-9C3D-3D53497AD3C7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sripirom.BulkUpload.WebApi", "app\Sripirom.BulkUpload.WebApi\Sripirom.BulkUpload.WebApi.csproj", "{6B7E9B2E-12F8-40DC-9951-403C055B5F43}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sripirom.BulkUpload.TestBase", "test\Sripirom.BulkUpload.TestBase\Sripirom.BulkUpload.TestBase.csproj", "{70FDCC5D-B548-4F85-96F4-5A1ACA26C144}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{16F1F5BC-73D8-4D81-A575-B8E41782F736}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16F1F5BC-73D8-4D81-A575-B8E41782F736}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16F1F5BC-73D8-4D81-A575-B8E41782F736}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16F1F5BC-73D8-4D81-A575-B8E41782F736}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C17A3B7-A2DD-4048-8FEB-2D3CC55B7F29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C17A3B7-A2DD-4048-8FEB-2D3CC55B7F29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C17A3B7-A2DD-4048-8FEB-2D3CC55B7F29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C17A3B7-A2DD-4048-8FEB-2D3CC55B7F29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFAD5F8D-7406-493E-B44F-7496808FA881}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFAD5F8D-7406-493E-B44F-7496808FA881}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFAD5F8D-7406-493E-B44F-7496808FA881}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFAD5F8D-7406-493E-B44F-7496808FA881}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD611F36-7EFC-414B-AEF0-F5D5AD26EBE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD611F36-7EFC-414B-AEF0-F5D5AD26EBE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD611F36-7EFC-414B-AEF0-F5D5AD26EBE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD611F36-7EFC-414B-AEF0-F5D5AD26EBE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F6668EC-1743-41BA-8DBD-7380F06A0693}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F6668EC-1743-41BA-8DBD-7380F06A0693}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F6668EC-1743-41BA-8DBD-7380F06A0693}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F6668EC-1743-41BA-8DBD-7380F06A0693}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A0CDA8C-551C-49A6-B543-862CA778BF4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A0CDA8C-551C-49A6-B543-862CA778BF4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A0CDA8C-551C-49A6-B543-862CA778BF4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A0CDA8C-551C-49A6-B543-862CA778BF4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88DC15B3-C148-412A-B4B7-38E52A89B5E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88DC15B3-C148-412A-B4B7-38E52A89B5E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88DC15B3-C148-412A-B4B7-38E52A89B5E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88DC15B3-C148-412A-B4B7-38E52A89B5E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D84C0F33-631D-4AE0-9C3D-3D53497AD3C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D84C0F33-631D-4AE0-9C3D-3D53497AD3C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D84C0F33-631D-4AE0-9C3D-3D53497AD3C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D84C0F33-631D-4AE0-9C3D-3D53497AD3C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B7E9B2E-12F8-40DC-9951-403C055B5F43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B7E9B2E-12F8-40DC-9951-403C055B5F43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B7E9B2E-12F8-40DC-9951-403C055B5F43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B7E9B2E-12F8-40DC-9951-403C055B5F43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70FDCC5D-B548-4F85-96F4-5A1ACA26C144}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70FDCC5D-B548-4F85-96F4-5A1ACA26C144}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70FDCC5D-B548-4F85-96F4-5A1ACA26C144}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70FDCC5D-B548-4F85-96F4-5A1ACA26C144}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{16F1F5BC-73D8-4D81-A575-B8E41782F736} = {8EA64471-DF40-4790-B7DA-254B6841CB52}
+		{7C17A3B7-A2DD-4048-8FEB-2D3CC55B7F29} = {8EA64471-DF40-4790-B7DA-254B6841CB52}
+		{CFAD5F8D-7406-493E-B44F-7496808FA881} = {8EA64471-DF40-4790-B7DA-254B6841CB52}
+		{BD611F36-7EFC-414B-AEF0-F5D5AD26EBE6} = {8EA64471-DF40-4790-B7DA-254B6841CB52}
+		{3F6668EC-1743-41BA-8DBD-7380F06A0693} = {376D1018-02DA-48EF-A86A-FA55DB713CE7}
+		{7A0CDA8C-551C-49A6-B543-862CA778BF4A} = {376D1018-02DA-48EF-A86A-FA55DB713CE7}
+		{88DC15B3-C148-412A-B4B7-38E52A89B5E1} = {376D1018-02DA-48EF-A86A-FA55DB713CE7}
+		{D84C0F33-631D-4AE0-9C3D-3D53497AD3C7} = {376D1018-02DA-48EF-A86A-FA55DB713CE7}
+		{6B7E9B2E-12F8-40DC-9951-403C055B5F43} = {67DAE579-ED1B-4319-B8D2-0B8178DB4B2F}
+		{70FDCC5D-B548-4F85-96F4-5A1ACA26C144} = {376D1018-02DA-48EF-A86A-FA55DB713CE7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {49B91ABF-2B0B-4648-909A-41C1B52AEB02}
+	EndGlobalSection
+EndGlobal
